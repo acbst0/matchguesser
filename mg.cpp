@@ -1,7 +1,21 @@
 #include "mg.h"
 
+void	greeding()
+{
+	cout << "----------------------------" << endl;
+	cout << "  Welcome to Match Guesser  " << endl;
+	cout << "----------------------------" << endl;
+	cout << "If you have problem to find " << endl;
+	cout << "stats of teams you can read " << endl;
+	cout << "README file. Also don't for-" << endl;
+	cout << "get that these guesses are  " << endl;
+	cout << "NOT certain. Do not play bet" << endl;
+	cout << "with these guesses. Thanks. " << endl << endl;
+}
+
 int main()
 {
+	greeding();
     teams team_home;
     teams team_away;
 	team_home.teamsinit(0);
