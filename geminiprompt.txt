@@ -1,0 +1,33 @@
+Bana Bayern Münihin bu sezon için aşağıdaki istatistiklerini söyler misin? 
+
+Galibiyet
+
+Berbaberlik
+
+Mağlubiyet
+
+Ortalama attığı gol
+
+Ortalama attığı şut
+
+Rakip ceza sahasında topla buluşma ortalaması
+
+xG ortalaması
+
+xA ortalaması
+
+Pas kalitesi ortalaması
+
+Topa sahip olma ortalaması
+
+Ortaama yenilen golü
+
+Ortalama Rakibplerinin attığı şut
+
+Kendi ceza sahasında topla buluşma ortalaması
+
+kendi kalesinde gördüğü xG
+
+kendi kalesinde gördüğü xA
+
+Rakiplerinin pas kalitesi

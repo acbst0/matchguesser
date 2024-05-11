@@ -2,12 +2,14 @@
 
 int main()
 {
-    teams team_home(0);
-    teams team_away(1);
+    teams team_home;
+    teams team_away;
+	team_home.teamsinit(0);
+	team_away.teamsinit(1);
     float home_final;
     float away_final;
     float percent;
-    int diff = team_home.league_point - team_away.league_point;
+    float diff = team_home.league_point - team_away.league_point;
 
     team_home.init_var();
     team_away.init_var();

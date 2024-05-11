@@ -44,7 +44,7 @@ public:
     double  pass_q_x;
     int     league_point;
     bool    home_away;
-    teams(bool i)
+    void teamsinit(bool i)
     {
         home_away = i;
         if (home_away == 0)
@@ -52,40 +52,40 @@ public:
         else
             cout << "Name of away team :" << endl;
         cin >> team_name;
-        cout << team_name << "'s wins :" << endl;
+        cout << team_name << " 's wins :" << endl;
         cin >> win;
-        cout << team_name << "'s draws :" << endl;
+        cout << team_name << " 's draws :" << endl;
         cin >> draw;
-        cout << team_name << "'s loses :" << endl;
+        cout << team_name << " 's loses :" << endl;
         cin >> lose;
         total_match = win + draw + lose;
-        cout << team_name << "'s average goal :" << endl;
+        cout << team_name << " 's average goal :" << endl;
         cin >> av_goal;
-        cout << team_name << "'s average shot :" << endl;
+        cout << team_name << " 's average shot :" << endl;
         cin >> av_shoot;
-        cout << team_name << "'s average of entering the opponent's penalty area :" << endl;
+        cout << team_name << " 's average of entering the opponent's penalty area :" << endl;
         cin >> third_area;
-        cout << team_name << "'s xG :" << endl;
+        cout << team_name << " 's xG :" << endl;
         cin >> xG;
-        cout << team_name << "'s xA :" << endl;
+        cout << team_name << " 's xA :" << endl;
         cin >> xA;
-        cout << team_name << "'s pass quality percent :" << endl;
+        cout << team_name << " 's pass quality percent :" << endl;
         cin >> pass_q;
-        cout << team_name << "'s possession percent :" << endl;
+        cout << team_name << " 's possession percent :" << endl;
         cin >> posses;
-        cout << team_name << "'s average goals conceded :" << endl;
+        cout << team_name << " 's average goals conceded :" << endl;
         cin >> av_goal_x;
-        cout << team_name << "'s average opponen's shots :" << endl;
+        cout << team_name << " 's average opponen's shots :" << endl;
         cin >> av_shoot_x;
         cout << team_name << "'s average of entering the opponent's penalty area for opponent :" << endl;
         cin >> third_area_x;
-        cout << team_name << "'s average of opponent's xG :" << endl;
+        cout << team_name << " 's average of opponent's xG :" << endl;
         cin >> xG_x;
-        cout << team_name << "'s average of opponent's xA :" << endl;
+        cout << team_name << " 's average of opponent's xA :" << endl;
         cin >> xA_x;
-        cout << team_name << "'s opponent's pass accuracy :" << endl;
+        cout << team_name << " 's opponent's pass accuracy :" << endl;
         cin >> pass_q_x;
-        cout << team_name << "'s league's UEFA points :" << endl;
+        cout << team_name << " 's league's UEFA points :" << endl;
         cin >> league_point;
     }
     void    init_var()
